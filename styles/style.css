@@ -28,6 +28,10 @@ nav ul {
 nav ul li {
     margin: 0 10px;
 }
+nav ul li a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
 #intro-banner {
     background-color: #606364;
     padding: 100px 5vw 30px 5vw;
@@ -88,7 +92,7 @@ nav ul li {
 }
 #experiences {
     margin: 20px auto 100px auto;
-    padding: 30px;
+    padding: 0 30px 30px 30px;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     width: 80%;
