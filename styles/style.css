@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #353a3a;
+    color: #FFFF;
+}
+a {
+    color: #FFFF;
+    text-decoration: none;
+}
+header {
+    background-color: #2A3133;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3%;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    margin: 0 10px;
+}
+#intro-banner {
+    background-color: #606364;
+    padding: 100px 5vw 30px 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#profpict {
+    margin-left: 5vw;
+}
+#description {
+    display: block;
+    margin: 0 3%;
+}
+#description h1 {
+    font-size: 2rem;
+}
+#description p {
+    font-size: 1rem;
+}
+#projects {
+    padding: 10px 0;
+}
+#projects h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.card h3 {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #ffcc00;
+}
+.card img {
+    width: 100%;
+    max-width: 250px;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 3%;
+}
+.card p {
+    font-size: 1rem;
+}
+#experiences {
+    margin: 20px auto 100px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#experiences h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #FFFF;
+    padding-bottom: 10px;
+    width: 100%;
+}
+#experiences dt {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    color: #ffcc00;
+}
+#experiences dd {
+    margin: 10px 0 0 40px;
+    font-size: 1rem;
+    padding-left: 20px;
+    border-left: 2px solid #ffcc00;
+}
+#experiences dt::before {
+    content: "• ";
+    font-size: 1.5rem;
+    color: #ffcc00;
+    margin-right: 10px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #2A3133;
+    text-align: center;
+}
+footer nav p {
+    margin: 7px 0;
+}
+footer nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 10px 0;
+}
